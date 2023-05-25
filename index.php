@@ -20,7 +20,7 @@
         <h1>Transcripts</h1>
     </div>
     <div class="parent">
-        <form action="connect.php" method="POST">
+        <form action="create.php" method="POST">
             <label for="name">Name:</label><br>    
             <input type="text" name="name" id="name" required/> <br> <br>
 

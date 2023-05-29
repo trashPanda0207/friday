@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> n1234567_hw3</title>
+</head>
+
+<body>
+    <form name="order" method="post" action="n1106831_hw3.php">
+        訂購者姓名: <input type="text" name="name" size="15" /><br />
+        訂購者地址: <textarea name="address" rows="5" cols="50">
+</textarea><br />
+        電腦系統:
+        <select name="computer">
+            <option value="PC" selected="True">PC</option>
+            <option value="MAC">MAC</option>
+        </select><br />
+        CPU:
+        <input type="radio" name="CPU" value="E5400" checked="True" />E5400
+        <input type="radio" name="CPU" value="E3200" />E3200<br />
+        勾選配備:
+        <input type="checkbox" name="ram" checked="True" />記憶體
+        <input type="checkbox" name="cdrom" />無線網卡
+        <input type="checkbox" name="monitor" />螢幕<br />
+        <input type="submit" value="送出訂單" />
+    </form>
+</body>
+
+</html>
